@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgb(17, 99, 99); /* Cor do cabeçalho */
+    color: white;
+    padding: 10px ;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: aquamarine;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333; /* Cor do rodapé */
+    color: white;
+}
+h1 {
+    color: #4CAF50;
+}
+p {
+    font-size: 16px;
+}
