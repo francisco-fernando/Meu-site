@@ -1,12 +1,19 @@
+@media (max-width:768px) {
+
+}
+
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    @media (max-width:768px){
+        .menu{
+            display: none;/* Esconde o menu em telas pequenas*/
+        }
+    }
 }
 header {
     background-color: rgb(17, 99, 99); /* Cor do cabeçalho */
     color: white;
-    padding: 10px ;
+    padding: 1% ;
 }
 nav ul {
     list-style-type: none;
@@ -27,7 +34,7 @@ nav a:hover{
 }
 footer {
     text-align: center;
-    padding: 10px 0;
+    padding: 1% 0;
     background-color: #333; /* Cor do rodapé */
     color: white;
 }
@@ -35,7 +42,7 @@ h1 {
     color: #4CAF50;
 }
 p {
-    font-size: 16px;
+    font-size: 100%;
 }
 /*corppooooooooooooooooo*/
 
@@ -44,7 +51,7 @@ p {
 }
 
 .tex{
-    background-image: url(../img/626af17e37014a34e98e8b02_robô\ IA.png);
+    background-image: url(../img/NNN.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -54,7 +61,7 @@ p {
     background-size: cover;
 }
 .tex2{
-    background-image: url(../img/626af17e37014a34e98e8b02_robô\ IA.png);
+    background-image: url(../img/NNN.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -63,11 +70,32 @@ p {
     height: 25%;
 }
 .tex h1{
-    color: rgb(250, 248, 248);
+    color: rgb(253, 253, 254);
 }
 .tex1 h1{
-    color: rgb(14, 12, 12);
+    color: rgb(5, 5, 5);
 }
 .tex2 h1{
-    color: rgb(250, 248, 248);
+    color: rgb(250, 250, 250);
 }
+#customers {
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 70%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #040404;
+    color: white;
